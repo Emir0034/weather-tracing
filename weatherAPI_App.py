@@ -3,7 +3,7 @@ import requests
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout)
 from PyQt5.QtCore import Qt
 
-deneme1 = 10
+
 class WeatherApp(QWidget):
     def __init__(self):
         super().__init__()
