@@ -74,7 +74,7 @@ class WeatherApp(QWidget):
     
     
     def get_weather(self):
-        api_key = "1f9ef3df13d2712ff341b816d1faad82"
+        api_key = "API_Key Here"
         city_name = self.city_input.text()
 
         try:
@@ -135,7 +135,7 @@ class WeatherApp(QWidget):
 
 def get_weather_info(location):
     base_url = "https://api.openweathermap.org/data/3.0/onecall?"
-    #API_key = "1f9ef3df13d2712ff341b816d1faad82"
+    #API_key = ""
     #url = f"https://api.openweathermap.org/data/3.0/onecall?appid={API_key}"
     #response = requests.get(url)
     #print(response)
